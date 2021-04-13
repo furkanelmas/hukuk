@@ -226,12 +226,7 @@
     </section>
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container"> © Gülcü Hukuk & Danışmanlık
-            <!-- This script automatically adds the current year to your website footer-->
-            <!-- (credit: https://updateyourfooter.com/)-->
-            <script>
-                document.write(new Date().getFullYear());
-            </script>
+        <div class="container"> © Gülcü Hukuk & Danışmanlık <span id="year"></span>
         </div>
     </footer>
     <!-- Bootstrap core JS-->
@@ -241,6 +236,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" defer></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js" defer></script>
+    <script>
+        const yearSpan = document.getElementById("year");
+        yearSpan.textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
