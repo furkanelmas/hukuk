@@ -2458,29 +2458,29 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: black;
-  border-color: black;
+  background-color: #64a19d;
+  border-color: #64a19d;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color:black;
-  border-color: black;
+  background-color:#64a19d;
+  border-color: #64a19d;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: black;
-  border-color: black;
+  background-color: #64a19d;
+  border-color: #64a19d;
   box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: black;
-  border-color: black;
+  background-color: #64a19d;
+  border-color: #64a19d;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: black;
-  border-color: black;
+  background-color: #64a19d;
+  border-color: #64a19d;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
@@ -10340,6 +10340,7 @@ body {
   border-radius: 100%;
   line-height:3rem;
   color: white;
+  font-size: 2em;
 }
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
