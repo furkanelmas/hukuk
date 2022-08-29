@@ -160,7 +160,7 @@ sup {
 }
 
 a {
-  color: black;
+  color: #64a19d;
   text-decoration: none;
   background-color: transparent;
 }
@@ -4001,7 +4001,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: black;
+  background-color: #64a19d;
 }
 
 .nav-fill > .nav-link,
@@ -10125,8 +10125,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: black;
-  border: 1px solid black;
+  color: #64a19d;
+  border: 1px solid #64a19d;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -10180,15 +10180,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: black;
+    color: #64a19d;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: black;
+    color: #64a19d;
     outline: none;
-    border-bottom: 0.25rem solid black;
+    border-bottom: 0.25rem solid #64a19d;
   }
 }
 
@@ -10381,5 +10381,5 @@ body {
  }
  .logo img{
   width: 190px;
-  height: 60px;
+  height: 70px;
  }
