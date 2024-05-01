@@ -10387,36 +10387,12 @@ body {
     
  }
 
-.whatsapp-balloon {
-  font-size: 25px;
+.whatsapp-icon {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25D366; /* Gri arka plan */
-  color: #ffffff; /* Beyaz metin */
-  padding: 10px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  font-family: Arial, sans-serif;
-}
-
-.whatsapp-balloon a {
+  bottom: 20px; 
+  right: 20px; 
+  font-size: 40px; 
+  color: #25D366; 
   text-decoration: none;
-  color: #ffffff; /* Beyaz metin */
-  display: flex;
-  align-items: center;
-}
-
-.whatsapp-balloon i {
-  font-size: 35px; /* İkon boyutu */
-  margin-right: 5px;
-}
-
-.whatsapp-text {
-  font-size: 20px;
-  font-family: Arial, sans-serif;
-  align-items: center;
-  margin-left: 5px;
 }
 
